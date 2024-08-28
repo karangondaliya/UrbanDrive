@@ -36,7 +36,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Status: </label>
-                                <asp:DropDownList ID="Availabledd" runat="server">
+                                <asp:DropDownList ID="Availabledd" runat="server" class="form-control">
                                     <asp:ListItem>Available</asp:ListItem>
                                     <asp:ListItem>Booked</asp:ListItem>
                                 </asp:DropDownList>
