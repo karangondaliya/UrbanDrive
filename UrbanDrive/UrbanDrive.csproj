@@ -105,6 +105,7 @@
     <Content Include="View\Admin\Home.aspx" />
     <Content Include="View\Admin\Rents.aspx" />
     <Content Include="View\Admin\Returns.aspx" />
+    <Content Include="View\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +155,13 @@
     </Compile>
     <Compile Include="View\Admin\Returns.aspx.designer.cs">
       <DependentUpon>Returns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
