@@ -96,13 +96,12 @@ namespace UrbanDrive.View.Admin
         
         protected void CarList_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-             LNumberTb.Value = CarList.SelectedRow.Cells[1].Text;
+            LNumberTb.Value = CarList.SelectedRow.Cells[1].Text;
             BrandTb.Value = CarList.SelectedRow.Cells[2].Text;
             ModelTb.Value = CarList.SelectedRow.Cells[3].Text;
             PriceTb.Value = CarList.SelectedRow.Cells[4].Text;
             ColorTb.Value = CarList.SelectedRow.Cells[5].Text;
-           Availabledd.SelectedValue = CarList.SelectedRow.Cells[6].Text;
+            Availabledd.SelectedValue = CarList.SelectedRow.Cells[6].Text;
         }
 
         protected void DeleteBtn_Click(object sender, EventArgs e)

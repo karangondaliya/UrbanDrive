@@ -19,7 +19,7 @@ namespace UrbanDrive.Models
         public Functions() 
         {
 
-            ConnStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\WADProjecct\UrbanDrive-master\UrbanDrive\App_Data\CarRenatlDbASP.mdf;Integrated Security=True";
+            ConnStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Karan\source\repos\UrbanDrive_Car_Rental_System\UrbanDrive\App_Data\CarRenatlDbASP.mdf;Integrated Security=True";
             Conn = new SqlConnection(ConnStr);
             cmd = new SqlCommand();
             cmd.Connection = Conn;
