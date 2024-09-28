@@ -2,57 +2,53 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="mybody" runat="server">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-10"></div>
             <div class="col-md-2">
-                <label id="CustName" runat="server">.....</label>
+                 <h4 class="text-dark fw-bold">Welcome</h4>
+               <label id="CustName" runat="server" class="text-dark fw-bold">.....</label>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-4"></div>
-            <div class="col-md-4 ml-5">
-                <img src="../../Assets/img/pexels-mikebirdy-170811.jpg" height="200" width="300" />
+            <div class="col-md-4 text-center">
+                <img src="../../Assets/img/tmain.jpg" height="200" width="300" class="img-fluid rounded shadow" />
             </div>
             <div class="col-md-4"></div>
         </div>
 
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col">
-                
-               
-                    <div class="col-md-8">
-                        <h3 class="text-danger">Available Cars</h3>
-                        <div class="row">
-                            <div class="col-5"></div>
-                            <div></div>
+            <div class="col-md-6">
+
+                <h3 class="text-danger text-center mb-4">Available Cars</h3>
+
+                <!-- GridView with AutoGenerateSelectButton -->
+                <asp:GridView runat="server" ID="CarList" CssClass="table table-striped table-hover" 
+                    AutoGenerateSelectButton="true" OnSelectedIndexChanged="CarList_SelectedIndexChanged1">
+                    <HeaderStyle BackColor="#007BFF" ForeColor="White" Font-Bold="True" Font-Size="16px" />
+                    <AlternatingRowStyle BackColor="#FFD700" ForeColor="Black" />
+                    <RowStyle BackColor="#F8F9FA" ForeColor="Black" />
+                    <SelectedRowStyle BackColor="#28A745" ForeColor="White" Font-Bold="True" />
+                </asp:GridView>
+
+                <div class="row mt-4">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="mb-3 form-group">
+                            <label for="ReturnDateTb" class="form-label">Select First Return Date</label>
+                            <input type="date" class="form-control" id="ReturnDateTb" runat="server" required="required" />
                         </div>
-
-                        <!-- GridView with AutoGenerateSelectButton -->
-                        <asp:GridView runat="server" ID="CarList" CssClass="table table-hover" AutoGenerateSelectButton="true" OnSelectedIndexChanged="CarList_SelectedIndexChanged1">
-                            <AlternatingRowStyle BackColor="#FFCC00" ForeColor="Black" />
-                        </asp:GridView>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="mb-3 form-group">
-                                <label for="exampleInputDate">Select fisrt Return Date</label>
-                                <input type="date" class="form-control" id="ReturnDateTb" runat="server" required="required" />
-                            </div>
-
-                            <div class="col-4">
-                                <div class="mb-3 form-group d-grid">
-                                    <label id="InfoMsg" runat="server" class="text-danger"></label>
-                                    <!-- Button to trigger booking action -->
-                                    <asp:Button type="submit" ID="BookBtn" CssClass="btn btn-warning btn-block" Text="Book" runat="server" OnClick="BookBtn_Click" />
-                                </div>
-                            </div>
+                        <div class="d-grid">
+                            <label id="InfoMsg" runat="server" class="text-danger"></label>
+                           
+                            <asp:Button type="submit" ID="BookBtn" CssClass="btn btn-warning btn-block" Text="Book" runat="server" OnClick="BookBtn_Click" />
                         </div>
                     </div>
-             
+                </div>
+
             </div>
+            <div class="col-md-3"></div>
         </div>
     </div>
 </asp:Content>

@@ -19,10 +19,15 @@
                     <form runat="server">
                      
 
-                        <asp:GridView runat="server" ID="RentList" CssClass="table table-hover" AutoGenerateSelectButton="True" OnSelectedIndexChanged="RentList_SelectedIndexChanged">
-                         <AlternatingRowStyle BackColor="#FFCC00" ForeColor="Black" />
-                          
-                          </asp:GridView>
+                      <asp:GridView runat="server" ID="RentList" CssClass="table table-striped table-hover"
+                            AutoGenerateSelectButton="True" OnSelectedIndexChanged="RentList_SelectedIndexChanged">
+        
+                        <HeaderStyle BackColor="#007BFF" ForeColor="White" Font-Bold="True" Font-Size="16px" />
+                        <AlternatingRowStyle BackColor="#FFD700" ForeColor="Black" />
+                           <RowStyle BackColor="#F8F9FA" ForeColor="Black" />
+                          <SelectedRowStyle BackColor="#28A745" ForeColor="White" Font-Bold="True" />
+        
+                </asp:GridView>
                        
                         
      <div class="mb-3 form-group">

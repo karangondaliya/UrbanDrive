@@ -9,7 +9,7 @@
         <!-- Page Header -->
         <div class="row justify-content-center mb-4">
             <div class="col text-center">
-                <h2>Your Pending Rentals</h2>
+                <h2 class="text-dark fw-bold">Your Pending Rentals</h2>
             </div>
         </div>
 
@@ -17,8 +17,11 @@
         <div class="row">
             <div class="col-md-12">
                 <h3 class="text-danger">Pending Rentals</h3>
-                <asp:GridView runat="server" ID="CarList" CssClass="table table-hover">
-                    <AlternatingRowStyle BackColor="#FFCC00" ForeColor="Black" />
+                <asp:GridView runat="server" ID="CarList" CssClass="table table-striped table-hover">
+                    <HeaderStyle BackColor="#007BFF" ForeColor="White" Font-Bold="True" Font-Size="16px" />
+                    <AlternatingRowStyle BackColor="#FFD700" ForeColor="Black" />
+                    <RowStyle BackColor="#F8F9FA" ForeColor="Black" />
+                    <SelectedRowStyle BackColor="#28A745" ForeColor="White" Font-Bold="True" />
                 </asp:GridView>
                 <asp:Label ID="ErrorMsg" runat="server" CssClass="text-danger"></asp:Label>
             </div>

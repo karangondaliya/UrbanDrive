@@ -71,12 +71,20 @@
     <Content Include="App_Data\CarRenatlDbASP_log.ldf">
       <DependentUpon>CarRenatlDbASP.mdf</DependentUpon>
     </Content>
+    <Content Include="Assets\img\amaze.jpeg" />
     <Content Include="Assets\img\car.jpeg" />
     <Content Include="Assets\img\fronxfronxrightfrontthreequarter.jpeg" />
     <Content Include="Assets\img\grandvitaragrandvitararightfrontthreequarter.jpeg" />
+    <Content Include="Assets\img\Logo.jpeg" />
+    <Content Include="Assets\img\mahindra-xuv300.jpg" />
+    <Content Include="Assets\img\maruti-swift-front.jpg" />
+    <Content Include="Assets\img\OIP.jpeg" />
     <Content Include="Assets\img\pexels-mikebirdy-170811.jpg" />
     <Content Include="Assets\img\pexels-pixabay-210019.jpg" />
+    <Content Include="Assets\img\tata-harrier.jpg" />
     <Content Include="Assets\img\tharroxxtharroxxrightfrontthreequarter.jpeg" />
+    <Content Include="Assets\img\The_new_Fortuner.jpeg" />
+    <Content Include="Assets\img\tmain.jpg" />
     <Content Include="Assets\Libraries\css\bootstrap-grid.css" />
     <Content Include="Assets\Libraries\css\bootstrap-grid.min.css" />
     <Content Include="Assets\Libraries\css\bootstrap-grid.rtl.css" />

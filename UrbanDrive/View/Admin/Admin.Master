@@ -4,49 +4,110 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Admin Panel | UrbanDrive</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" href="../../Assets/Libraries/css/bootstrap.min.css"/>
+    <style>
+        body {
+            background: linear-gradient(to right, #fff8b3, #ffe066); /* Light yellow gradient */
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar {
+            background-color: #ffcc00; /* Rich yellow for the navbar */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-brand {
+            color: #333; /* Dark color for good contrast */
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .navbar-nav .nav-link {
+            color: #333; /* Dark color for better visibility */
+            font-weight: 500;
+            padding: 0.75rem 1rem;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #555; /* Slightly darker on hover */
+        }
+        .container-fluid {
+            margin-top: 20px;
+        }
+        /* Content placeholders with light yellow background and dark text */
+        .content-section {
+            background-color: #fff8e1; /* Light yellow */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            color: #333; /* Dark text for readability */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #333; /* Ensure headers are dark for contrast */
+        }
+        p, a {
+            color: #333; /* Body text is dark for contrast */
+        }
+        .btn-primary {
+            background-color: #ffd700;
+            border-color: #e6b800;
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background-color: #ffec8b; /* Slightly lighter yellow on hover */
+            border-color: #d9a300;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-warning">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">UrbanDrive</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="Home.aspx">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Cars.aspx">Car</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Customers.aspx">Customers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Rents.aspx">Rentals</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Returns.aspx">Return</a>
-        </li>
-            <li class="nav-item">
-    <a class="nav-link" href="../Login.aspx">Logout</a>
-  </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">UrbanDrive</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Home.aspx">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Cars.aspx">Car</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Customers.aspx">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Rents.aspx">Rentals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Returns.aspx">Return</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Login.aspx">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content area -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- Content placeholder wrapped in content-section for consistent theming -->
+                <div class="content-section">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
     </div>
 
     <asp:ContentPlaceHolder ID="mybody" runat="server">
     </asp:ContentPlaceHolder>
 
+    <!-- Bootstrap JS and dependencies -->
+    <script src="../../Assets/Libraries/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

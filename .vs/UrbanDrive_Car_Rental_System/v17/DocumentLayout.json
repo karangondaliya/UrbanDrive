@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WADProjecct\\git hub(folder)wad project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|e:\\wadprojecct\\git hub(folder)wad project\\urbandrive\\view\\admin\\cars.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\view\\admin\\cars.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|e:\\wadprojecct\\git hub(folder)wad project\\urbandrive\\view\\admin\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\view\\admin\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|e:\\wadprojecct\\git hub(folder)wad project\\urbandrive\\assets\\img\\fronxfronxrightfrontthreequarter.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\assets\\img\\fronxfronxrightfrontthreequarter.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|e:\\wadprojecct\\git hub(folder)wad project\\urbandrive\\view\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\view\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|E:\\WADProjecct\\git hub(folder)wad project\\urbandrive\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|e:\\wadprojecct\\git hub(folder)wad project\\urbandrive\\assets\\img\\logo.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\assets\\img\\logo.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|e:\\wadprojecct\\git hub(folder)wad project\\urbandrive\\assets\\img\\car.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\assets\\img\\car.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|E:\\WADProjecct\\git hub(folder)wad project\\urbandrive\\view\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\view\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|E:\\WADProjecct\\git hub(folder)wad project\\urbandrive\\models\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\models\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|E:\\WADProjecct\\git hub(folder)wad project\\urbandrive\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D48D67CD-FACC-4D6A-A5C8-C427AF5DE086}|UrbanDrive\\UrbanDrive.csproj|solutionrelative:urbandrive\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 480,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fronxfronxrightfrontthreequarter.jpeg",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Assets\\img\\fronxfronxrightfrontthreequarter.jpeg",
+              "RelativeDocumentMoniker": "UrbanDrive\\Assets\\img\\fronxfronxrightfrontthreequarter.jpeg",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Assets\\img\\fronxfronxrightfrontthreequarter.jpeg",
+              "RelativeToolTip": "UrbanDrive\\Assets\\img\\fronxfronxrightfrontthreequarter.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-28T11:04:04.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Admin\\Home.aspx",
+              "RelativeDocumentMoniker": "UrbanDrive\\View\\Admin\\Home.aspx",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Admin\\Home.aspx",
+              "RelativeToolTip": "UrbanDrive\\View\\Admin\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T10:59:13.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cars.aspx",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Admin\\Cars.aspx",
+              "RelativeDocumentMoniker": "UrbanDrive\\View\\Admin\\Cars.aspx",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Admin\\Cars.aspx",
+              "RelativeToolTip": "UrbanDrive\\View\\Admin\\Cars.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T10:57:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Admin\\Admin.Master",
+              "RelativeDocumentMoniker": "UrbanDrive\\View\\Admin\\Admin.Master",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Admin\\Admin.Master",
+              "RelativeToolTip": "UrbanDrive\\View\\Admin\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T10:54:30.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logo.jpeg",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Assets\\img\\logo.jpeg",
+              "RelativeDocumentMoniker": "UrbanDrive\\Assets\\img\\logo.jpeg",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Assets\\img\\logo.jpeg",
+              "RelativeToolTip": "UrbanDrive\\Assets\\img\\logo.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-28T10:52:14.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "UrbanDrive\\View\\Login.aspx.cs",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Login.aspx.cs",
+              "RelativeToolTip": "UrbanDrive\\View\\Login.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T10:26:20.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Login.aspx",
+              "RelativeDocumentMoniker": "UrbanDrive\\View\\Login.aspx",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\View\\Login.aspx",
+              "RelativeToolTip": "UrbanDrive\\View\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T10:25:06.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "car.jpeg",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Assets\\img\\car.jpeg",
+              "RelativeDocumentMoniker": "UrbanDrive\\Assets\\img\\car.jpeg",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Assets\\img\\car.jpeg",
+              "RelativeToolTip": "UrbanDrive\\Assets\\img\\car.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-28T10:39:04.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Models\\Functions.cs",
+              "RelativeDocumentMoniker": "UrbanDrive\\Models\\Functions.cs",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Models\\Functions.cs",
+              "RelativeToolTip": "UrbanDrive\\Models\\Functions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T10:23:30.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Web.config",
+              "RelativeDocumentMoniker": "UrbanDrive\\Web.config",
+              "ToolTip": "E:\\WADProjecct\\git hub(folder)wad project\\UrbanDrive\\Web.config",
+              "RelativeToolTip": "UrbanDrive\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-28T10:23:10.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

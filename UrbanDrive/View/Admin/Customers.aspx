@@ -43,12 +43,24 @@
             </div>
 
             <!-- Right side: Customer list taking 60% width (col-md-8) -->
-            <div class="col-md-8">
-                <h1>Customers List</h1>
-                <asp:GridView runat="server" ID="CustomerList" Class="table table-hover" AutoGenerateSelectButton="True" OnSelectedIndexChanged="CustomerList_SelectedIndexChanged">
-                    <AlternatingRowStyle BackColor="#FFCC00" ForeColor="Black" />
-                </asp:GridView>
-            </div>
+           <div class="col-md-8">
+                 <h1 class="text-center text-dark">Customers List</h1> 
+    
+            <asp:GridView runat="server" ID="CustomerList" Class="table table-striped table-hover" 
+                  AutoGenerateSelectButton="True" OnSelectedIndexChanged="CustomerList_SelectedIndexChanged">
+        
+                  <HeaderStyle BackColor="#007BFF" ForeColor="White" Font-Bold="True" Font-Size="16px" />
+                  <AlternatingRowStyle BackColor="#FFD700" ForeColor="Black" />
+                     <RowStyle BackColor="#F8F9FA" ForeColor="Black" />
+                     <SelectedRowStyle BackColor="#28A745" ForeColor="White" Font-Bold="True" />
+        
+            </asp:GridView>
+</div>
+
+       
+            
+        
+        
         </div>
     </div>
 </asp:Content>
